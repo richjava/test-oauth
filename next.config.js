@@ -1,4 +1,5 @@
 /* eslint-disable */
-const withCSS = require('@zeit/next-css');
-
-module.exports = withCSS({});
+module.exports = {
+  // Target must be serverless for next on netlify
+  target: 'serverless'
+};
