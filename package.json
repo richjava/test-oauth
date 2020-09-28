@@ -17,16 +17,10 @@
     "bootstrap-styled": "^2.7.2",
     "express": "^4.16.4",
     "next": "^9.5.2",
-    "next-on-netlify": "^2.4.0",
     "processmd": "^4.4.2",
     "react": "^16.8.2",
     "react-dom": "^16.8.2",
     "styled-components": "^4.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "NODE_ENV=production lint-staged"
-    }
   },
   "eslint": {
     "ignorePath": ".eslintignore"
